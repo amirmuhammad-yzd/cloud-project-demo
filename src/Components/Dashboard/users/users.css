@@ -1,0 +1,136 @@
+div.tableBody{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    height: fit-content;
+    /* margin-top: 50px; */
+    margin: 20px;
+    background-color: none;
+  }
+  
+  #customers td, #customers th {
+    border: 2px solid #dddddd00;
+    padding: 8px;
+    text-align: center;
+  }
+  th.code{
+    width: fit-content;
+  }
+  th.id{
+    width: 15%;
+  }
+  th.name{
+    width: 20%;
+  }
+  th.phone{
+    width: 20%;
+  }
+  th.address{
+    width: 30%;
+  }
+  #customers tr:nth-child(even){background-color: #f2f2f2 !important;
+  }
+  #customers tr:nth-child(odd){background-color: #ffffffd5 !important;
+  }
+      
+  #customers tr:hover {background-color: #dddddd;}
+  #customers tr{
+    width: 100%;
+    margin: 2px 0;
+  }
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #046daa;
+    color: white;
+  }
+i.fa-search,.fa-arrow-right{
+    font-size: 24px;
+    color: white;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+i.fa-lock{
+    font-size: 20px;
+}
+i.fa-trash{
+    color: white;
+    background-color: none;
+    position: absolute;
+    right: 25px;
+    padding-top: 10px;
+    color: rgb(175, 1, 1);
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+}
+input#searchInput{
+  position: absolute;
+  right: 60px;
+  top: 20px;
+  background-color: none;
+  background: none;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ffffff;
+  padding: 0 10px;
+  color: white;
+  display: none;
+}
+input#searchInput::placeholder{
+  color: white;
+}
+div.info{
+  background-color: rgba(255, 255, 255, 0.829);
+  padding: 10px;
+  position: relative;
+  left: 30px;
+  border-radius: 10px;
+  transition: 1s;
+  display: none;
+  padding-top: 30px;
+}
+div.info button{
+  padding: 5px 20px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 5px;
+  background-color: rgb(0, 173, 78);
+  color: white;
+  cursor: pointer;
+  position: relative;
+  left: 202px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+div.info input{
+  outline: none;
+  margin-left: 20px;
+  background-color: rgb(73, 76, 255);
+  color: rgba(255, 255, 255, 0.973);
+  border: 1px solid rgb(76, 73, 255);
+  font-weight: 600;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+i.fa-arrow-up{
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
+tr.userTr:hover i.fa-trash{
+    display: block;
+}

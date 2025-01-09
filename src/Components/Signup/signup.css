@@ -1,0 +1,83 @@
+.signupMainBudy{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: none;
+}
+img.subgi{
+    height: 100vh;
+    width: 100vw;
+    filter: blur(2px);
+}
+.signupBody{
+    position: absolute;
+    background-color: rgba(1, 45, 78, 0.836);
+    width: 600px;
+    box-shadow: -1px -1px 6px 6px rgba(255, 255, 255, 0.11) , 1px 1px 2px 2px rgba(255, 255, 255, 0.096);
+    padding: 20px ;
+    top: 100px;
+    border-radius: 5px;
+}
+.signupBody label{
+    color: rgba(255, 255, 255, 0.925);
+}
+form.inputBody div{
+    margin-top: 30px;
+}
+.inputBody input{
+    background: none;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid white;
+    border-radius: 3px;
+    width: 400px;
+    height: 30px;
+    color: rgba(255, 255, 255, 0.959);
+    padding: 0 10px;
+}
+.nameBody{
+    display: flex;
+    justify-content: space-between;
+}
+.inputBody input:focus{
+    box-shadow: -1px -1px 3px 3px rgba(255, 255, 255, 0.11) , 1px 1px 2px 2px rgba(255, 255, 255, 0.096);
+    border: none;
+    color: rgba(255, 255, 255, 0.945);
+}
+.familyBody{
+    display: flex;
+    justify-content: space-between;
+}
+.numberBody{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonBody{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.buttonBody img{
+    background-color: rgba(255, 255, 255, 0.973);
+    width: 50px;
+    border-radius: 50%;
+}
+.buttonBody img.previos:hover{
+    background-image: linear-gradient(135deg , #FF9950 , rgb(252, 129, 129));
+}
+.buttonBody img.next:hover{
+    background-image: linear-gradient(-135deg,royalblue,rgb(170, 197, 247));
+}
+.form1{z-index: 3;}
+.form2{display: none;}
+.form3{display: none;}
+
+
+
+
+
+
+
+

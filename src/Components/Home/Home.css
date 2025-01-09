@@ -1,0 +1,153 @@
+.Home img.HomeBgImg{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+}
+.Home{
+    width: 100vw;
+    height: 100vh;
+    z-index: 5;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.appStyleInHome{
+    filter: blur(1px);
+    width: 50%;
+    height: 100vh;
+    z-index: 0;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.homeContainor{
+    position: relative;
+    display: flex;
+}
+.optionContain{
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    z-index: 2;
+    top: 160px;
+    left: 210px;
+    border-radius: 40%;
+    background-color: rgba(0, 0, 0, 0.959);
+    /* display: none; */
+}
+.options{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.945);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+    position: absolute;
+    top: 220px;
+    left: 270px;
+    margin: auto;
+
+}
+.options:hover
+{
+    cursor: pointer;
+    border-radius: 10px;
+    transform: rotate(-360deg);
+    transition: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: absolute;
+    z-index: 10;
+}
+
+@keyframes example {
+    from {margin-top: 0;
+    background-color: rgb(161, 3, 3);}
+    to {margin-top: 0px;
+    background-color: rgb(69, 69, 253);
+    box-shadow:0 4px 8px 0 rgba(69, 69, 253, 0.4), 0 6px 20px 0 rgba(69, 69, 253, 0.39);
+}
+  }
+.lock{
+    position: absolute;
+}
+.options:hover .lock{
+    display: none;
+}
+.OLock{position: absolute;
+display: none;}
+.options:hover .OLock{
+    display: block;
+}
+.links{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    position: relative;
+    top: 0;
+    z-index: 1!important;
+}
+.Home .homeContainor .links img{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    cursor: pointer;
+}
+.aboutOp{
+    border-bottom-right-radius: 50%;
+}
+.signinIn{
+    border-top-right-radius: 50%;
+}
+.signUp{
+    border-bottom-left-radius: 50%;
+}
+.dashboard{border-top-left-radius: 50%;}
+
+
+
+div.links p{color: white;
+position: absolute;
+z-index: 5;
+}
+.links div{
+    display: flex;
+    position: relative;
+}
+.links div p{
+position: absolute;
+top: 120px;
+left: 90px;
+color: rgba(255, 255, 255, 0.959);
+background-color: rgba(10, 92, 160, 0.884);
+padding: 5px 10px;
+border-radius: 5px;
+display: none;
+}
+.img1:hover p{
+    display: block;
+}
+.img2:hover p{display: block;}
+.img3:hover p{display: block;}
+.img4:hover p{display: block;}
+.img1:hover img{
+    filter: blur(2px);
+}
+.img2:hover img{
+    filter: blur(2px);
+}
+.img3:hover img{
+    filter: blur(2px);
+}
+.img4:hover img{
+    filter: blur(2px);
+}
